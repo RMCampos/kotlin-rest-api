@@ -1,0 +1,11 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/java:21-trixie",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "21",
+      "jdkDistro": "tem",
+      "installGradle": true,
+      "gradleVersion": "latest"
+    }
+  }
+}
