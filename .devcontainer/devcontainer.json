@@ -1,4 +1,5 @@
 {
+  "name": "Kotlin Spring Boot Dev",
   "image": "mcr.microsoft.com/devcontainers/java:21-trixie",
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
@@ -7,5 +8,16 @@
       "installGradle": true,
       "gradleVersion": "latest"
     }
-  }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "fwcd.kotlin",
+        "vscjava.vscode-java-pack"
+      ]
+    }
+  },
+  "forwardPorts": [8080]
 }
